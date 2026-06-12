@@ -25,7 +25,7 @@ jobs:
 
     - name: Load config
       run: |
-        cp config/mt7981-ax3000.config .config
+        cp defconfig/mt7981-ax3000.config .config
         make defconfig
 
     - name: Build
